@@ -29,6 +29,7 @@
                             <th>Nama</th>
                             <th>Nomor Telp</th>
                             <th>Alamat</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -39,8 +40,8 @@
                                 <td><?php echo $siswa['nomor_telp'] ?></td>
                                 <td><?php echo $siswa['alamat_siswa'] ?></td>
                                 <td class="text-center">
-                                    <a href="<?php echo base_url('post/edit/'.$siswa['id_siswa']) ?>" class="btn btn-sm btn-primary">EDIT</a>
-                                    <a href="<?php echo base_url('post/delete/'.$siswa['id_siswa']) ?>" class="btn btn-sm btn-danger">HAPUS</a>
+                                    <a href="<?php echo base_url('siswa/edit/'.$siswa['id_siswa']) ?>" class="btn btn-sm btn-primary">EDIT</a>
+                                    <a href="<?php echo base_url('siswa/delete/'.$siswa['id_siswa']) ?>" class="btn btn-sm btn-danger">HAPUS</a>
                                 </td>
                             </tr>
 
