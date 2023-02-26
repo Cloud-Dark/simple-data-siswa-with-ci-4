@@ -19,7 +19,8 @@ class Siswa extends Migration
                 'type'           => 'TEXT'
             ],
             'nomor_telp'       => [
-                'type'           => 'INT'
+                'type'           => 'VARCHAR',
+                'constraint'     => 200,
             ],
             'alamat_siswa'     => [
                  'type'           => 'TEXT'
